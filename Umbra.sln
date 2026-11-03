@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B810310-B3F7-4860-97F8-C6F6F5365064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbra.Core", "src\Umbra.Core\Umbra.Core.csproj", "{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{088D9FBD-9ECA-49DA-8748-9E2E15B78096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbra.Tests", "tests\Umbra.Tests\Umbra.Tests.csproj", "{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7FBC4F7-04A2-4AC9-A659-7BE691D8ACA3} = {9B810310-B3F7-4860-97F8-C6F6F5365064}
+		{7BB29A6D-4621-4DCB-89CC-C14B1A9B62A7} = {088D9FBD-9ECA-49DA-8748-9E2E15B78096}
+	EndGlobalSection
+EndGlobal
